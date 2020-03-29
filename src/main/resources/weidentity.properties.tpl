@@ -7,9 +7,9 @@ blockchain.orgid=organizationA
 datasource.name=datasource1
 
 # The configuration of each data source is prefixed by the name of the data source.
-datasource1.jdbc.url=jdbc:mysql://0.0.0.0:3306/database?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+datasource1.jdbc.url=jdbc:mysql://0.0.0.0:3306/mysql?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
 datasource1.jdbc.username=user
-datasource1.jdbc.password=passwd
+datasource1.jdbc.password=password
 datasource1.jdbc.maxActive=50
 datasource1.jdbc.minIdle=5
 datasource1.jdbc.maxIdle=5
@@ -35,4 +35,4 @@ salt.length=5
 amop.request.timeout=5000
 
 # Blockchain node info.
-nodes=127.0.0.1:20200
+nodes=WeIdentity@NODE_IP
